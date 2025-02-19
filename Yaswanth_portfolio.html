@@ -8,47 +8,71 @@
     <script defer src="script.js"></script>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: #f4f4f4;
+            background: linear-gradient(135deg, #96c3ef, #fad0c4);
             color: #333;
+            text-align: center;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            color: #a3c3f4;
+            padding: 40px 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .profile {
+            margin-top: 20px;
+        }
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
         }
         nav ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
         nav ul li {
             display: inline;
-            margin: 0 15px;
         }
         nav ul li a {
-            color: #fff;
+            color: rgb(206, 206, 216);
             text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.3);
         }
         section {
-            padding: 20px;
-            margin: 20px;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px auto;
+            width: 80%;
+            background: rgba(226, 229, 232, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
         }
         .project {
             margin-bottom: 20px;
         }
         ul {
-            padding-left: 20px;
+            text-align: left;
+            display: inline-block;
         }
         footer {
             text-align: center;
-            padding: 10px;
-            background: #333;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
             color: #fff;
             margin-top: 20px;
         }
@@ -56,7 +80,7 @@
 </head>
 <body>
     <header>
-        <h1>Yashwanth Tankasala</h1>
+        <h1>Yaswanth Tankasala</h1>
         <p>Software Developer | Java | Web Development</p>
         <nav>
             <ul>
@@ -67,6 +91,10 @@
             </ul>
         </nav>
     </header>
+    
+    <div class="profile">
+        <img src="20250131_080707.jpg" alt="Profile Photo">
+    </div>
     
     <section id="about">
         <h2>About Me</h2>
@@ -101,10 +129,11 @@
         <p>Email: <a href="mailto:yashon9000@gmail.com">yashon9000@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/yashwantht-a2z/" target="_blank">linkedin.com/in/yashwantht-a2z</a></p>
         <p>GitHub: <a href="https://github.com/yashon9000" target="_blank">github.com/yashon9000</a></p>
+        <p>Mobile: +919000373233</p>
     </section>
     
     <footer>
-        <p>&copy; 2025 Yashwanth Tankasala. All Rights Reserved.</p>
+        <p>&copy; 2025 Yaswanth Tankasala. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
